@@ -19,6 +19,8 @@ public class EmployeeService {
      
     public List<EmployeeEntity> getAllEmployees()
     {
+        EmployeeEntity employeeEntity = null;
+        employeeEntity.getEmail();
         List<EmployeeEntity> employeeList = repository.findAll();
          
         if(employeeList.size() > 0) {
